@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7956CA092293F168005EE6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956CA082293F168005EE6DD /* AppDelegate.swift */; };
+		7956CA0B2293F168005EE6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956CA0A2293F168005EE6DD /* ViewController.swift */; };
+		7956CA0E2293F168005EE6DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956CA0C2293F168005EE6DD /* Main.storyboard */; };
+		7956CA102293F169005EE6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7956CA0F2293F169005EE6DD /* Assets.xcassets */; };
+		7956CA132293F169005EE6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956CA112293F169005EE6DD /* LaunchScreen.storyboard */; };
+		7956CA1E2293F169005EE6DD /* HistogramViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956CA1D2293F169005EE6DD /* HistogramViewTests.swift */; };
+		7956CA292293F169005EE6DD /* HistogramViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956CA282293F169005EE6DD /* HistogramViewUITests.swift */; };
+		7956CA372293F183005EE6DD /* FCHistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956CA362293F183005EE6DD /* FCHistogramView.swift */; };
+		7956CA392293F1BE005EE6DD /* UIKit+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956CA382293F1BE005EE6DD /* UIKit+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7956CA1A2293F169005EE6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7956C9FD2293F168005EE6DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7956CA042293F168005EE6DD;
+			remoteInfo = HistogramView;
+		};
+		7956CA252293F169005EE6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7956C9FD2293F168005EE6DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7956CA042293F168005EE6DD;
+			remoteInfo = HistogramView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7956CA052293F168005EE6DD /* HistogramView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistogramView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956CA082293F168005EE6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7956CA0A2293F168005EE6DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7956CA0D2293F168005EE6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7956CA0F2293F169005EE6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7956CA122293F169005EE6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7956CA142293F169005EE6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7956CA192293F169005EE6DD /* HistogramViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistogramViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956CA1D2293F169005EE6DD /* HistogramViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramViewTests.swift; sourceTree = "<group>"; };
+		7956CA1F2293F169005EE6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7956CA242293F169005EE6DD /* HistogramViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistogramViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956CA282293F169005EE6DD /* HistogramViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramViewUITests.swift; sourceTree = "<group>"; };
+		7956CA2A2293F169005EE6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7956CA362293F183005EE6DD /* FCHistogramView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCHistogramView.swift; sourceTree = "<group>"; };
+		7956CA382293F1BE005EE6DD /* UIKit+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7956CA022293F168005EE6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956CA162293F169005EE6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956CA212293F169005EE6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7956C9FC2293F168005EE6DD = {
+			isa = PBXGroup;
+			children = (
+				7956CA072293F168005EE6DD /* HistogramView */,
+				7956CA1C2293F169005EE6DD /* HistogramViewTests */,
+				7956CA272293F169005EE6DD /* HistogramViewUITests */,
+				7956CA062293F168005EE6DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7956CA062293F168005EE6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7956CA052293F168005EE6DD /* HistogramView.app */,
+				7956CA192293F169005EE6DD /* HistogramViewTests.xctest */,
+				7956CA242293F169005EE6DD /* HistogramViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7956CA072293F168005EE6DD /* HistogramView */ = {
+			isa = PBXGroup;
+			children = (
+				7956CA382293F1BE005EE6DD /* UIKit+Extension.swift */,
+				7956CA362293F183005EE6DD /* FCHistogramView.swift */,
+				7956CA082293F168005EE6DD /* AppDelegate.swift */,
+				7956CA0A2293F168005EE6DD /* ViewController.swift */,
+				7956CA0C2293F168005EE6DD /* Main.storyboard */,
+				7956CA0F2293F169005EE6DD /* Assets.xcassets */,
+				7956CA112293F169005EE6DD /* LaunchScreen.storyboard */,
+				7956CA142293F169005EE6DD /* Info.plist */,
+			);
+			path = HistogramView;
+			sourceTree = "<group>";
+		};
+		7956CA1C2293F169005EE6DD /* HistogramViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7956CA1D2293F169005EE6DD /* HistogramViewTests.swift */,
+				7956CA1F2293F169005EE6DD /* Info.plist */,
+			);
+			path = HistogramViewTests;
+			sourceTree = "<group>";
+		};
+		7956CA272293F169005EE6DD /* HistogramViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7956CA282293F169005EE6DD /* HistogramViewUITests.swift */,
+				7956CA2A2293F169005EE6DD /* Info.plist */,
+			);
+			path = HistogramViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7956CA042293F168005EE6DD /* HistogramView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956CA2D2293F169005EE6DD /* Build configuration list for PBXNativeTarget "HistogramView" */;
+			buildPhases = (
+				7956CA012293F168005EE6DD /* Sources */,
+				7956CA022293F168005EE6DD /* Frameworks */,
+				7956CA032293F168005EE6DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HistogramView;
+			productName = HistogramView;
+			productReference = 7956CA052293F168005EE6DD /* HistogramView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7956CA182293F169005EE6DD /* HistogramViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956CA302293F169005EE6DD /* Build configuration list for PBXNativeTarget "HistogramViewTests" */;
+			buildPhases = (
+				7956CA152293F169005EE6DD /* Sources */,
+				7956CA162293F169005EE6DD /* Frameworks */,
+				7956CA172293F169005EE6DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7956CA1B2293F169005EE6DD /* PBXTargetDependency */,
+			);
+			name = HistogramViewTests;
+			productName = HistogramViewTests;
+			productReference = 7956CA192293F169005EE6DD /* HistogramViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7956CA232293F169005EE6DD /* HistogramViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956CA332293F169005EE6DD /* Build configuration list for PBXNativeTarget "HistogramViewUITests" */;
+			buildPhases = (
+				7956CA202293F169005EE6DD /* Sources */,
+				7956CA212293F169005EE6DD /* Frameworks */,
+				7956CA222293F169005EE6DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7956CA262293F169005EE6DD /* PBXTargetDependency */,
+			);
+			name = HistogramViewUITests;
+			productName = HistogramViewUITests;
+			productReference = 7956CA242293F169005EE6DD /* HistogramViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7956C9FD2293F168005EE6DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JKB;
+				TargetAttributes = {
+					7956CA042293F168005EE6DD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7956CA182293F169005EE6DD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7956CA042293F168005EE6DD;
+					};
+					7956CA232293F169005EE6DD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7956CA042293F168005EE6DD;
+					};
+				};
+			};
+			buildConfigurationList = 7956CA002293F168005EE6DD /* Build configuration list for PBXProject "HistogramView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7956C9FC2293F168005EE6DD;
+			productRefGroup = 7956CA062293F168005EE6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7956CA042293F168005EE6DD /* HistogramView */,
+				7956CA182293F169005EE6DD /* HistogramViewTests */,
+				7956CA232293F169005EE6DD /* HistogramViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7956CA032293F168005EE6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956CA132293F169005EE6DD /* LaunchScreen.storyboard in Resources */,
+				7956CA102293F169005EE6DD /* Assets.xcassets in Resources */,
+				7956CA0E2293F168005EE6DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956CA172293F169005EE6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956CA222293F169005EE6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7956CA012293F168005EE6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956CA372293F183005EE6DD /* FCHistogramView.swift in Sources */,
+				7956CA0B2293F168005EE6DD /* ViewController.swift in Sources */,
+				7956CA392293F1BE005EE6DD /* UIKit+Extension.swift in Sources */,
+				7956CA092293F168005EE6DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956CA152293F169005EE6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956CA1E2293F169005EE6DD /* HistogramViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956CA202293F169005EE6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956CA292293F169005EE6DD /* HistogramViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7956CA1B2293F169005EE6DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7956CA042293F168005EE6DD /* HistogramView */;
+			targetProxy = 7956CA1A2293F169005EE6DD /* PBXContainerItemProxy */;
+		};
+		7956CA262293F169005EE6DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7956CA042293F168005EE6DD /* HistogramView */;
+			targetProxy = 7956CA252293F169005EE6DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7956CA0C2293F168005EE6DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7956CA0D2293F168005EE6DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7956CA112293F169005EE6DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7956CA122293F169005EE6DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7956CA2B2293F169005EE6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7956CA2C2293F169005EE6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7956CA2E2293F169005EE6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiankangbao.HistogramView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7956CA2F2293F169005EE6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiankangbao.HistogramView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7956CA312293F169005EE6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiankangbao.HistogramViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HistogramView.app/HistogramView";
+			};
+			name = Debug;
+		};
+		7956CA322293F169005EE6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiankangbao.HistogramViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HistogramView.app/HistogramView";
+			};
+			name = Release;
+		};
+		7956CA342293F169005EE6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiankangbao.HistogramViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HistogramView;
+			};
+			name = Debug;
+		};
+		7956CA352293F169005EE6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HistogramViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiankangbao.HistogramViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HistogramView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7956CA002293F168005EE6DD /* Build configuration list for PBXProject "HistogramView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956CA2B2293F169005EE6DD /* Debug */,
+				7956CA2C2293F169005EE6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7956CA2D2293F169005EE6DD /* Build configuration list for PBXNativeTarget "HistogramView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956CA2E2293F169005EE6DD /* Debug */,
+				7956CA2F2293F169005EE6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7956CA302293F169005EE6DD /* Build configuration list for PBXNativeTarget "HistogramViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956CA312293F169005EE6DD /* Debug */,
+				7956CA322293F169005EE6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7956CA332293F169005EE6DD /* Build configuration list for PBXNativeTarget "HistogramViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956CA342293F169005EE6DD /* Debug */,
+				7956CA352293F169005EE6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7956C9FD2293F168005EE6DD /* Project object */;
+}
