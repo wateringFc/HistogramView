@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         histogramView.backgroundColor = .white
         histogramView.maxVlue = 200
         histogramView.isShowEachYValus = true
+        histogramView.dottedLineColor = UIColor.purple
         view.addSubview(histogramView)
     }
 

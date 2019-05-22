@@ -26,10 +26,16 @@ class FCHistogramView: UIView {
     /// 柱形图的填充颜色
     var barCorlor: UIColor = .green
     
+//-----------------可配置属性-----------------
     /// 是否显示每个y值， 默认显示
     var isShowEachYValus: Bool = true
     /// 是否设置最大值，默认不设置（如大于0则红色显示）
     var maxVlue: CGFloat = 0
+    /// 是否显示虚线， 默认为显示
+    var isShowDotted: Bool = true
+    /// 设置虚线颜色，默认为红色
+    var dottedLineColor: UIColor = .red
+//-----------------外部可配置属性-----------------
     
     /// 总宽度
     var _totalWidth: CGFloat?
@@ -153,11 +159,13 @@ extension FCHistogramView {
         
         // 画y轴刻度
         for i in 0..<yAxisCount {
-            // 绘制背景虚线
-            let lineView = UIView(frame: CGRect(x: 10, y: CGFloat(i)*(_totalHeight!/CGFloat(yAxisCount)), width: _totalWidth!, height: 1))
-            lineView.alpha = 0.7
-            contentView.addSubview(lineView)
-            drawDashLine(lineView: lineView, lineLength: 5, lineSpacing: 5, lineColor: .red)
+            if isShowDotted {
+                // 绘制背景虚线
+                let lineView = UIView(frame: CGRect(x: 10, y: CGFloat(i)*(_totalHeight!/CGFloat(yAxisCount)), width: _totalWidth!, height: 1))
+                lineView.alpha = 0.7
+                contentView.addSubview(lineView)
+                drawDashLine(lineView: lineView, lineLength: 5, lineSpacing: 5, lineColor: dottedLineColor)
+            }
             
             // 绘制y轴的刻度
             path.move(to: CGPoint(x: 0, y: CGFloat(i)*(_totalHeight!/CGFloat(yAxisCount))))
